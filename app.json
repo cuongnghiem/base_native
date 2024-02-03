@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Toktok",
+    "slug": "Toktok",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "useFrameworks": "static",
+      "bundleIdentifier": "com.nghiemmanhcuong.basenative"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.nghiemmanhcuong.basenative"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
